@@ -1,6 +1,6 @@
-#**SASSY-BOT**
+#SASSY-BOT
 
-##**Who Is Sassy-Bot?**
+##Who Is Sassy-Bot?
 
 -Sassy-Bot will randomly select and construct a message to return to whoever called it.
 -The responses are designed to be kind of snobby but still funny and should always be vague.
