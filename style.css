@@ -25,8 +25,8 @@ header {
 
 .logo {
     cursor: pointer;
-    height: 5%;
-    width: 5%;
+    height: 10%;
+    width: 10%;
 }
 
 .nav-links {
@@ -60,7 +60,7 @@ button:hover {
 }
 
 .main-container {
-    display: block;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -81,6 +81,7 @@ button:hover {
 
 .btn {
     padding: 9px 25px;
+    color: #000000;
     background-color: rgba(255, 204, 255, 1);
     border: none;
     border-radius: 50px;
@@ -90,6 +91,7 @@ button:hover {
 }
 
 .btn:hover {
-    padding: 9px 25px;
-    background-color: rgba(255, 204, 255, 0.8);
+    background-color: black;
+    color: rgba(255, 204, 255, 0.8);
+    border: 5px, #FFCCFF, solid; 
 }
