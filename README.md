@@ -1,4 +1,4 @@
-# SASSY-BOT
+# SASSY-BOT   ![ ](./assets/sassy-bot.png "SASSY-BOT")
 
 ## Who Is Sassy-Bot?
 
