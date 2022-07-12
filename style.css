@@ -7,7 +7,7 @@
     background-color: #000000;
 }
 
-li, a, button {
+li, a {
     font-family: "Righteous", sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -46,34 +46,23 @@ header {
     color: #FFCCFF;
 }
 
-button {
-    padding: 9px 25px;
-    background-color: rgba(255, 204, 255, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(255, 204, 255, 0.8);
-}
-
 .main-container {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .main-image {
-    padding: 65px;
-    margin-left: 250px;
-    width: 70%;
-    height: 70%;
+    padding: 35px;
+    width: 80%;
+    height: 80%;
 }
 
 .btn-container {
-    margin-left: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
     height: 100%;
     width: 100%;
