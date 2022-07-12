@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+li, a, button {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    border-bottom: 1px solid #edf0f1;
+}
+
+.logo {
+    cursor: pointer;
+    height: 5%;
+    width: 5%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px, 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #FFCCFF;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(255, 204, 255, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(255, 204, 255, 0.8);
+}
+
+.main-container {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-image {
+    padding: 65px;
+    margin-left: 250px;
+    width: 70%;
+    height: 70%;
+}
+
+.btn-container {
+    margin-left: 660px;
+    margin-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    padding: 9px 25px;
+    background-color: rgba(255, 204, 255, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.btn:hover {
+    padding: 9px 25px;
+    background-color: rgba(255, 204, 255, 0.8);
+}
