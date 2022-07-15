@@ -6,8 +6,8 @@ const sassyBot = () =>
     const object = ['listen to your nonsense.', 'with you humon...', 'understand pointless words.'];
 
     response.push(subject[Math.floor(Math.random() * subject.length)]);
-    response.push(Math.floor(Math.random() * verb.length));
-    response.push(Math.floor(Math.random() * object.length));
+    response.push(verb[Math.floor(Math.random() * verb.length)]);
+    response.push(object[Math.floor(Math.random() * object.length)]);
 
     return response.join(' ');
 }
