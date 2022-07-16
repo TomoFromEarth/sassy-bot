@@ -71,7 +71,6 @@ header {
     font-size: 30px;
     color: #000000;
     background-color: rgba(255, 204, 255, 1);
-    border: none;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -81,7 +80,7 @@ header {
 .btn:hover {
     background-color: black;
     color: rgba(255, 204, 255, 0.8);
-    border: 5px, #FFCCFF, solid; 
+    border: 1px, #FFCCFF, solid; 
 }
 
 #message-container {
