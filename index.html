@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="./main.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./scripts/main.js"></script>
     <title>Sassy Bot</title>
 </head>
 <body>
     <header>
-        <a href="https://github.com/TomoFromEarth" target="_blank"><img class="logo" src="./assets/tomofromearth-logo.png" alt="black & white logo of man in ball cap looking down"></a>
+        <a href="https://github.com/TomoFromEarth" target="_blank"><img class="logo"
+                src="./assets/tomofromearth-logo.png" alt="black & white logo of man in ball cap looking down"></a>
         <nav>
             <ul class="nav-links">
                 <li><a href="https://github.com/TomoFromEarth/sassy-bot" target="_blank">SASSY BOT</a></li>
@@ -19,9 +20,10 @@
     </header>
     <div class="main-container">
         <img class="main-image" src="./assets/sassy-bot.png" alt="illustration of a sassy robot">
+        <span id="message-container"></span>
     </div>
     <div class="btn-container">
-        <a class="btn" href="#">PUSH THE BUTTON</a>  
+        <button class="btn" onclick="onButtonClick()">PUSH <br> THE <br> BUTTON</button>
     </div>
 </body>
 </html>

@@ -4,13 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
     background-color: #000000;
 }
 
 li, a {
     font-family: "Righteous", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     text-decoration: none;
 }
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10%;
+    padding: 1rem 10%;
     border-bottom: 1px solid #edf0f1;
 }
 
@@ -35,7 +36,7 @@ header {
 
 .nav-links li {
     display: inline-block;
-    padding: 0px, 20px;
+    padding: 0 1.25rem;
 }
 
 .nav-links li a {
@@ -54,8 +55,8 @@ header {
 }
 
 .main-image {
-    padding: 35px;
-    width: 80%;
+    padding: 2.25rem;
+    width: 50%;
     height: auto;
 }
 
@@ -63,17 +64,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    height: 100%;
-    width: 100%;
 }
 
 .btn {
-    padding: 9px 25px;
+    padding: 2.25rem;
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
     color: #000000;
     background-color: rgba(255, 204, 255, 1);
-    border: none;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     
@@ -82,9 +81,18 @@ header {
 .btn:hover {
     background-color: black;
     color: rgba(255, 204, 255, 0.8);
-    border: 5px, #FFCCFF, solid; 
+    border: 1px, #FFCCFF, solid; 
 }
 
 #message-container {
     position: absolute;
+    font-family: 'Righteous', sans-serif;
+    font-size: .975rem;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    margin-top: 3.5%;
+    margin-left: 19%;
+    width: 8%;
+    height: auto;
 }
