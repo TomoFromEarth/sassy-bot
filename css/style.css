@@ -55,7 +55,7 @@ header {
 
 .main-image {
     padding: 35px;
-    width: 80%;
+    width: 50%;
     height: auto;
 }
 
@@ -63,17 +63,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    height: 100%;
-    width: 100%;
 }
 
 .btn {
-    padding: 9px 25px;
+    padding: 30px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 30px;
     color: #000000;
     background-color: rgba(255, 204, 255, 1);
     border: none;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     
@@ -87,4 +86,13 @@ header {
 
 #message-container {
     position: absolute;
+    font-family: 'Righteous', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 4%;
+    margin-left: 18%;
+    width: 8%;
+    height: auto;
+
 }
