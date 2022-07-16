@@ -4,13 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
     background-color: #000000;
 }
 
 li, a {
     font-family: "Righteous", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     text-decoration: none;
 }
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10%;
+    padding: 1rem 10%;
     border-bottom: 1px solid #edf0f1;
 }
 
@@ -35,7 +36,7 @@ header {
 
 .nav-links li {
     display: inline-block;
-    padding: 0px, 20px;
+    padding: 0 1.25rem;
 }
 
 .nav-links li a {
@@ -54,7 +55,7 @@ header {
 }
 
 .main-image {
-    padding: 35px;
+    padding: 2.25rem;
     width: 50%;
     height: auto;
 }
@@ -66,9 +67,9 @@ header {
 }
 
 .btn {
-    padding: 30px;
+    padding: 2.25rem;
     font-family: 'Righteous', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: #000000;
     background-color: rgba(255, 204, 255, 1);
     border-radius: 50%;
@@ -86,12 +87,11 @@ header {
 #message-container {
     position: absolute;
     font-family: 'Righteous', sans-serif;
-    font-size: 18px;
+    font-size: .975rem;
     text-align: center;
     background-color: #fff;
-    margin-top: 4%;
-    margin-left: 18%;
+    margin-top: 3.5%;
+    margin-left: 19%;
     width: 8%;
     height: auto;
-
 }
